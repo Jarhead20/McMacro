@@ -1,4 +1,4 @@
-package com.McMacro.core;
+package com.mcmacro.mcmacro.core;
 
 
 public class ScriptLoader {
