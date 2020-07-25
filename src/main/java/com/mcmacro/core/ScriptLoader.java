@@ -1,4 +1,4 @@
-package com.mcmacro.mcmacro.core;
+package com.mcmacro.core;
 
 
 public class ScriptLoader {
@@ -8,7 +8,7 @@ public class ScriptLoader {
     }
     public String[] setScript() {
         try {
-            com.McMacro.core.ScriptParser parser = new com.McMacro.core.ScriptParser(script, false);
+            ScriptParser parser = new ScriptParser(script, false);
             String[] actions = parser.getActions();
             return actions;
         } catch (Exception e) {

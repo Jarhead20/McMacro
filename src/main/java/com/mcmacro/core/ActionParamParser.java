@@ -1,4 +1,4 @@
-package com.McMacro.core;
+package com.mcmacro.core;
 
 public class ActionParamParser {
     public ActionParamParser(String scriptl) {

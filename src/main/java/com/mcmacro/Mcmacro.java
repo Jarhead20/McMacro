@@ -1,6 +1,6 @@
-package com.McMacro;
+package com.mcmacro;
 
-import com.itzblaze.mcmacro.core.ActionParamParser;
+import com.mcmacro.core.ActionParamParser;
 import net.minecraft.block.Block;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.item.Item;
@@ -51,7 +51,7 @@ public class Mcmacro {
     public void postinit(FMLPostInitializationEvent event) {
         KeyBinding keyBindings = new KeyBinding("check",KEY_K,"button");
         try {
-            System.out.println("postinit");
+            System.out.println("here is the postinit phase");
             String testscript = "floss(xd,lmao);";
             ActionParamParser paramParser = new ActionParamParser(testscript);
             String[] params = paramParser.getParams(testscript);
